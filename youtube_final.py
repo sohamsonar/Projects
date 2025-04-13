@@ -8,8 +8,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from openai import OpenAI
 
 # Replace these with your actual API keys
-GROQ_API_KEY = "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"  # Replace with your actual key
-YOUTUBE_API_KEY = "AIzaSyDI6SJp7Oja5wRlFKWTlbI814sM72c2ukE"  # Replace with your actual key
+GROQ_API_KEY = ""  # Replace with your actual key
+YOUTUBE_API_KEY = ""  # Replace with your actual key
 
 # Initialize AI client
 groq_client = OpenAI(
